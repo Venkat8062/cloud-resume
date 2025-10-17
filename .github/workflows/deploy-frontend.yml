@@ -1,4 +1,4 @@
-deploy-frontend.ymname: Deploy Frontend
+name: Deploy Frontend
 
 on:
   push:
