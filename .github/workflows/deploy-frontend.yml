@@ -28,5 +28,5 @@ jobs:
       run: aws s3 cp index.html s3://venkatraman-resume-aws/
 
     - name: Invalidate CloudFront cache
-      run: aws cloudfront create-invalidation --distribution-id E3AFALU2RASPI4 --paths "/index
+      run: aws cloudfront create-invalidation --distribution-id E3AFALU2RASPI4 --paths "/index.html"
 
